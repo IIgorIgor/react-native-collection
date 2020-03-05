@@ -1,0 +1,8 @@
+- Create a migration:
+    yarn sequelize migration:create --name=MIGRATION_NAME
+   
+- Migration UP:
+    yarn sequelize db:migrate
+
+- Migration DOWN:
+    yarn sequelize db:migrate:undo 
